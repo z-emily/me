@@ -1,13 +1,9 @@
-/* 
-    Created on : Jul 16, 2021, 11:45:26 AM
-*/
-
 body {
-    background-color: black;
+    background-color: #291600;
     padding-top: 1vw;
     margin-left: 3vw;
     padding-left: 2vw;
-    font-family: 'Alatsi';
+    font-family: 'Tajawal';
     display: inline-block;
     padding-bottom: 1vw;
     margin-bottom: 1vw;
@@ -53,7 +49,7 @@ h1 {
     font-size: 4vw;
 }
 h2  {
-    color: rgba(175,198,210,255);
+    color: #F2E9E4;
     font-size: 3vw;
 }
 h3  {
@@ -108,7 +104,7 @@ p {
 /* The typing effect */
 @keyframes typing {
     from { width: 0 }
-    to { width: 51%}
+    to { width: 48%}
 }
 /* The typewriter cursor effect */
 @keyframes blink-caret {
@@ -117,7 +113,7 @@ p {
 }
 
 .typewriter span  {
-    color: rgba(175,198,210,255);
+    color: #8E6C88;
 }
 
 .container {
@@ -126,14 +122,14 @@ p {
     grid-template-columns: 25vw 25vw 25vw;
 
     align: left;
-    background-color: black;
+    background-color: #291600;
     padding-left: 2vw;
     width: 80vw;
 
 }
 
 .container > div {
-    background-color: darkgrey;
+    background-color: #607744;
     margin: .5vw;
     padding: 1vw;
 }
