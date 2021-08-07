@@ -112,6 +112,13 @@ p {
     20% { border-color: white; }
 }
 
+@media only screen and (max-width: 600px) {
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 43vw}
+    }
+}
+
 .typewriter span  {
     color: #8E6C88;
 }
