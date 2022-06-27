@@ -2,128 +2,218 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
         <link rel ="shortcut icon" href="images/favicon.ico?">
         <link rel ="apple-touch-icon" href="images/Ef.png?">
         <link rel="icon" sizes="192x192" href="images/favicon.ico?"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
         <title>Emily Zhou</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div class="fixed">
-            <img alt ="logo" src="images/Ef.png" class="respimage" />
-            <div class="sidebar">
-                <a href="#about" style="margin-left:2vh;">About.</a><a href="#experience" style="margin-left:2vh;">Experience.</a><a href="#awards" style="margin-left:2vh;">Awards.</a><a href="#interests" style="margin-left:2vh;">Interests.</a>
-            </div>
-            <div id ="link">
-                <a href="mailto:zx.e5000@gmail.com" class="fa fa-envelope-o"></a><br>
-                <a href= "https://www.linkedin.com/in/zhou-emily/" class="fa fa-linkedin-square"></a><br>
-                <a href="https://www.instagram.com/emi.lyzhou/" class="fa fa-instagram"></a>
-            </div>
-        </div>
         <div class="typewriter">
             <h1>Hello, it's <span>EMILY.</span></h1>
         </div>
         <p>Diligent and detailed team builder committed to pioneering valuable social relations. <br>
             Principled and nimble lifelong learner pursuing cultivation with sincerity and enthusiasm. <br>
             Shown success in efficiency and versatility.</p>
-        <a id="about"></a>
-        <h2>About</h2>
-        <p>I am a junior at Shenendehowa High School.<br>
-            I am probably tasting delicacies as you read this. <br>
-            Mango and Travel Obsessed.</p>
-        <a id="experience"></a>
-        <h2>Experience</h2>
-        <div class ="container">
-            <div>
-                <h3>Instructional Assistant</h3>
-                <h4>Kumon</h4>
-                <p>2021 - Present <br><br>
-                    Instructing young children in academics; promote confidence in their abilities; facilitate grading processes.</p>
+        <div class="tab">
+            <button class="tablinks" onmouseover="openTab(event, 'About')">About</button>
+            <button class="tablinks" onmouseover="openTab(event, 'Experience')">Experience</button>
+            <button class="tablinks" onmouseover="openTab(event, 'Awards')">Awards</button>
+            <button class="tablinks" onmouseover="openTab(event, 'Interests')">Interests</button>
+        </div>
+        <div id="About" class="tabcontent">
+            <h2>About</h2>
+            <p>I am a senior at Shenendehowa High School.<br>
+                I am probably tasting delicacies as you read this. <br>
+                Mango, Lemon, and Travel Obsessed.</p>
+            <h2>Contact</h2>
+            <div class ="container">
+                <div>
+                    <h3>Email</h3>
+                    <p><a href="mailto:zx.e5000@gmail.com">zx.e5000@gmail.com</a></p>
+                </div>
+                <div>
+                    <h3>Linkedin</h3>
+                    <p><a href= "https://www.linkedin.com/in/zhou-emily/" >www.linkedin.com/in/zhou-emily/ </a></p>
+                </div>
+                <div>
+                    <h3>Phone</h3>
+                    <p>518.707.6656</p>
+                </div>
+        </div>
+        </div>
+
+        <div id="Experience" class="tabcontent">
+            <h2>Experience</h2>
+            <div class ="container">
+                <div>
+                    <h3>Vice President & Competition Committee Co-Head</h3>
+                    <h4>Math Honor Society</h4>
+                    <p>2021 - Present <br><br>
+                        Create and run virtual and in-person trivia sessions, buzzer competitions, and scavenger hunts to foster a healthy competitive spirit and school unity. Present the Competition Committee at the Hudson Mohawk Valley Area Mathematics Conference to local math teachers. Member since 2019.</p>
+                </div>
+                <div>
+                    <h3>Vice President</h3>
+                    <h4>Science National Honor Society</h4>
+                    <p>2022 - Present <br><br>
+                        Serve on committees spreading interest in science. Member since 2020.</p>
+                </div>
+                <div>
+                    <h3>President</h3>
+                    <h4>Business and Marketing National Honor Society</h4>
+                    <p>2022 - Present <br><br>
+                        Serve to improve interest in business and financial literacy in the community.</p>
+                </div>
             </div>
-            <div>
-                <h3>Co-Captain</h3>
-                <h4>JV Tennis</h4>
-                <p>2021 <br><br>
-                    Leading and forming new connections in an unanticipated team made entirely of either extremely seasoned players or complete newcomers.</p>
+            <div class ="container">
+                <div>
+                    <h3>Co-President & Extemporaneous/Speech Captain</h3>
+                    <h4>Speech and Debate</h4>
+                    <p>2022 - Present <br><br>
+                        Help new speakers cultivate interest in extemporaneous speech and encourage confidence in speaking in formal settings, even with little preparation. Member since 2019.</p>
+                </div>
+                <div>
+                    <h3>President</h3>
+                    <h4>Optimist Club</h4>
+                    <p>2022 - Present <br><br>
+                        Formulate and implement fundraisers for the school community. Work on initiatives to improve school well-being and positivity by fostering the establishment of peer-to-peer and peer-to-teacher relationships. Vice President since 2020.</p>
+                </div>
+                <div>
+                    <h3>Instructional Assistant</h3>
+                    <h4>Kumon</h4>
+                    <p>2021 - Present <br><br>
+                        Instructing young children in academics; promote confidence in their abilities; facilitate grading processes.</p>
+                </div>
             </div>
-            <div>
-                <h3>Vice President</h3>
-                <h4>Optimist Club</h4>
-                <p>2020 - Present <br><br>
-                    Formulate and implement fundraisers for the school community; work on initiatives to improve school well-being and positivity.</p>
+            <div class ="container">
+                <div>
+                    <h3>Leadership Committee Member</h3>
+                    <h4>CAPTAIN Community Human Services</h4>
+                    <p>2022 - Present <br><br>
+                        Serve as a helpful ambassador to promote youth volunteerism and unity. Make school supplies more accessible to families in need. Streamline food pantry processes that serve the community. CAPteen Ambassador since 2020.</p>
+                </div>
+                <div>
+                    <h3>Treasurer</h3>
+                    <h4>Shenendehowa School Store</h4>
+                    <p>2021 - 2022 <br><br>
+                        Manage the finances of a school store that serves over 3,000 students. Promote increased revenue to be reinvested back into the school community.</p>
+                </div>
+                <div>
+                    <h3>Co-Captain</h3>
+                    <h4>JV Tennis</h4>
+                    <p>2021 <br><br>
+                        Leading and forming new connections in an unanticipated team made entirely of either extremely seasoned players or complete newcomers.</p>
+                </div>
             </div>
         </div>
-        <div class ="container">
-            <div>
-                <h3>Co-Head</h3>
-                <h4>Math Honor Society</h4>
-                <p>2021 - Present <br><br>
-                    Create and run virtual and in-person trivia sessions. Organize and host large buzzer competitions.</p>
+        <div id="Awards" class="tabcontent">
+            <h2>Awards</h2>
+            <div class ="container">
+                <div>
+                    <h3>Varsity Extemporaneous Speech State and National Qualifier</h3>
+                    <h4>NCFL</h4>
+                    <p>2022</p>
+                </div>
+                <div>
+                    <h3>Honorable Mention</h3>
+                    <h4>We the Students Essay Contest, Bill of Rights Institute</h4>
+                    <p>2022</p>
+                </div>
+                <div>
+                    <h3>Certificate of Excellence</h3>
+                    <h4>Profile in Courage Essay Contest, JFK Library</h4>
+                    <p>2022</p>
+                </div>
             </div>
-            <div>
-                <h3>Treasurer</h3>
-                <h4>Shenendehowa School Store</h4>
-                <p>2021 - Present <br><br>
-                    Manage the finances of a school store that serves over 3,000 students. Promote increased revenue to be reinvested back into the school community.</p>
+            <div class ="container">
+                <div>
+                    <h3>Finalist</h3>
+                    <h4>American Computer Science League</h4>
+                    <p>2022</p>
+                </div>
+                <div>
+                    <h3>American Mathematics High School Annual Examination Award</h3>
+                    <h4>Shenendehowa High School</h4>
+                    <p>2022</p>
+                </div>
+                <div>
+                    <h3>Brandeis University Book Award</h3>
+                    <h4>Shenendehowa High School</h4>
+                    <p>2022</p>
+                </div>
             </div>
-            <div>
-                <h3>Student Coach</h3>
-                <h4>Barracudas Swim Team</h4>
-                <p>2019 - Present <br><br>
-                    Fostered long-term interest in physical activity and encouraged true enjoyment of sport in young children through redesigning practices.</p>
+            <div class ="container">
+                <div>
+                    <h3>Science Academic Achievement Award</h3>
+                    <h4>Shenendehowa High School</h4>
+                    <p>2022</p>
+                </div>
+                <div>
+                    <h3>President's Volunteer Service Award </h3>
+                    <h4>President's Council on Service and Civic Participation </h4>
+                    <p>2021 </p>
+                </div>
+                <div>
+                    <h3>W!se Financial Literacy Ambassadors Award Top Ten Finalist</h3>
+                    <h4>Working In Support of Education (W!se)</h4>
+                    <p>2021</p>
+                </div>
+            </div>
+            <div class ="container">
+                <div>
+                    <h3>2nd Place High School Programming Contest</h3>
+                    <h4>Siena College</h4>
+                    <p>2021 </p>
+                </div>
+                <div>
+                    <h3>2nd Place Illustrated Poem Contest</h3>
+                    <h4>Eastern New York Local Section of the ACS</h4>
+                    <p>2021</p>
+                </div>
+                <div>
+                    <h3>W!se Financial Certificate of Financial Literacy</h3>
+                    <h4>Working In Support of Education (W!se)</h4>
+                    <p>2021</p>
+                </div>
             </div>
         </div>
 
-        <a id="awards"></a>
-        <h2>Awards</h2>
-        <div class ="container">
-            <div>
-                <h3>President’s Volunteer Service Award </h3>
-                <h4>President's Council on Service and Civic Participation </h4>
-                <p>2021 </p>
-            </div>
-            <div>
-                <h3>W!se Financial Literacy Ambassadors Award Top Ten Finalist</h3>
-                <h4>Working In Support of Education (W!se)</h4>
-                <p>2021</p>
-            </div>
-            <div>
-                <h3>W!se Financial Certificate of Financial Literacy</h3>
-                <h4>Working In Support of Education (W!se)</h4>
-                <p>2021</p>
-            </div>
-        </div>
-        <div class ="container">
-            <div>
-                <h3>AP Scholar with Honor Award </h3>
-                <h4>College Board </h4>
-                <p>2021 </p>
-            </div>
-            <div>
-                <h3>Business Academic Achievement Award</h3>
-                <h4>Shenendehowa High School</h4>
-                <p>2021</p>
-            </div>
-            <div>
-                <h3>Green Letter: Academic Excellence Award</h3>
-                <h4>Shenendehowa High School</h4>
-                <p>2021</p>
+        <div id="Interests" class="tabcontent">
+            <h2>Interests</h2>
+            <div class ="container">
+                <div>
+                    <h3>CmplxSkin </h3>
+                    <p>Designed a website where users may browse through skin conditions on different complexions; created and manages an accompanying Instagram @cmplxskin to bring further reach to racial disparities in dermatology. </p>
+                </div>
+                <div>
+                    <h3>Calligraphy</h3>
+                    <p>Enjoys practicing own calligraphy as well as studying historical records.</p>
+                </div>
+                <div>
+                    <h3>Investment Competition</h3>
+                    <h4>Wharton Global Youth Program</h4>
+                    <p>Collaborated with other students and skilled advisors to learn about the facets of investing in new labor markets and expansion of existing ones. Resulted in a mock portfolio that has since made a 103% return on investment.</p>
+                </div>
             </div>
         </div>
-        <a id="interests"></a>
-        <h2>Interests</h2>
-        <div class ="container">
-            <div>
-                <h3>CmplxSkin </h3>
-                <p>Designed a website where users may browse through skin conditions on different complexions; created and manages an accompanying Instagram @cmplxskin to bring further reach to racial disparities in dermatology. </p>
-            </div>
-            <div>
-                <h3>Calligraphy</h3>
-                <p>Enjoys practicing own calligraphy as well as studying historical records.</p>
-            </div>
-        </div>
-    </body>
+            
+    <script>
+        function openTab(evt, tabName) {       //w3 schools
+            var i, tabcontent, tablinks;
+
+            // Get all elements with class="tabcontent" and hide them
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+</body>
 </html>
